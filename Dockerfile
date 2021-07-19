@@ -1,4 +1,5 @@
-FROM alpine:3.13
+#20210719
+FROM alpine:3.14
 MAINTAINER pasi@pashi.net
 
 RUN apk add --update ansible openssh-client py3-pip py3-pillow sshpass ca-certificates py3-netaddr curl bash
